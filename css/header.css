@@ -1,7 +1,6 @@
 header {
   background-color: var(--background-tertiary-color);
   display: flex;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
@@ -15,17 +14,16 @@ header {
   height: 64px;
 }
 
-.logo__mobile {
+.img__mobile {
   display: block;
 }
 
-.logo__desktop {
+.img__desktop {
   display: none;
 }
 
 .navegacao__menu {
   margin-top: 24px;
-  width: 467px;
 }
 
 input[type="checkbox"]:checked ~ nav {
@@ -46,7 +44,7 @@ nav {
 }
 
 .lista__links li {
-  margin-bottom: 16px;
+  margin: 16px 0;
 }
 
 .lista__links li a {
@@ -59,6 +57,7 @@ nav {
 @media (min-width: 768px) {
   .navegacao__menu {
     margin-top: 0;
+    width: 467px;
   }
   .navegacao__menu label {
     display: none;
@@ -92,7 +91,7 @@ nav {
     display: none;
   }
   .navegacao__menu a:hover {
-    color: var(--text-primary-color);
+    color: var(--primary-color);
   }
 }
 
