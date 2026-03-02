@@ -7,11 +7,6 @@
   width: 100%;
 }
 
-.payments .content__container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .payments .content__container .image__gallery .image.bag {
   background: url(../img/bag_mobile.jpg) no-repeat;
   background-size: cover;
@@ -49,10 +44,15 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .payments .content__container {
+    display: flex;
+    justify-content: space-between;
+  }
   .payments .text__content {
     width: 360px;
   }
   .payments .image__gallery {
     width: 790px;
+    margin: 0;
   }
 }
