@@ -1,0 +1,26 @@
+.payments .image__gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+}
+
+.payments .image__gallery .image.bag {
+  background: url(../img/bag_mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .image__gallery .image.passport {
+  background: url(../img/passport_mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .image__gallery .image.people {
+  background: url(../img/people_mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .image__gallery .image.colspan__2 {
+  grid-column: span 2;
+}
