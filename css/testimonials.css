@@ -22,7 +22,7 @@
   height: 86px;
 }
 
-.testimonial__container footer .profile__content h4 {
+.testimonial__container footer .profile__content h3 {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--title-weight);
