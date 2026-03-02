@@ -1,0 +1,41 @@
+.testimonial__container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.testimonial__container article header p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.testimonial__container footer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.testimonial__container footer img {
+  width: 86px;
+  height: 86px;
+}
+
+.testimonial__container footer .profile__content h4 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--title-weight);
+  margin: 0;
+}
+
+.testimonial__container footer .profile__content .rating .star {
+  font-size: 32px;
+  color: var(--secondary-color);
+}
+
+@media screen and (min-width: 1440px) {
+  .testimonial__container {
+    flex-direction: row;
+  }
+}
