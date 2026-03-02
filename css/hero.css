@@ -1,7 +1,16 @@
-.hero__img {
+.hero .hero__img,
+.bottom__hero .hero__img {
   height: 400px;
   width: 100%;
-  background: url("../img/banner_hero_smarthphone.jpg") no-repeat;
+}
+
+.hero .hero__img {
+  background: url("../img/banner_hero_mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.bottom__hero .hero__img {
+  background: url("../img/bottom_hero_mobile.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -15,11 +24,18 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero__img {
+  .hero .hero__img {
     height: 620px;
     background: url("../img/banner_hero_tablet.jpg") no-repeat;
     background-size: cover;
   }
+
+  .bottom__hero .hero__img {
+    height: 400px;
+    background: url("../img/bottom_hero_tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
@@ -28,8 +44,12 @@
 
 @media screen and (min-width: 1024px) {
   .hero__img {
-    height: 620px;
     background: url("../img/banner_hero_desktop.jpg") no-repeat;
+    background-size: cover;
+  }
+  .bottom__hero .hero__img {
+    height: 600px;
+    background: url("../img/bottom_hero_desktop.jpg") no-repeat;
     background-size: cover;
   }
   .hero h2 {
